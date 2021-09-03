@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contact-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.image {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.slice {
+  width: 40%;
+}
+
+.texts {
+  margin: 60px;
+  font-size: larger;
+  padding: 7%;
+}
+
+.form-area {
+  padding: 10%;
+}
+
+.form-box {
+  width: 70%;
+  background-color: white;
+}
+
+.form_row .input-box {
+  width: 50%;
+  padding: 40px;
+}
+
+.form-row .input-box input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  margin-bottom: 25px;
+  border-radius: 5px 5px;
+  border-radius: 5px 5px;
+}
+
+.form-row .input-box textarea {
+  width: 100%;
+  height: 80px;
+  padding: 0 10px;
+  border-radius: 5px 5px;
+}
+
+.submit {
+  justify-content: flex-end;
+  display: flex;
+}
+.input-box2 {
+  margin: 3%;
+  width: 50%;
+  padding: 10%;
+}
+
+.submit button {
+  background-color: blue;
+  height: 28px;
+  width: 20%;
+  margin-top: 2%;
+  border-radius: 5px 5px;
+  color: white;
+}
+
+.text2 {
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.us {
+  font-size: 40px;
+}
+
+.center {
+  margin-bottom: 70px;
+}
+.rule {
+  display: flex;
+  width: 50px;
+  text-overflow: ellipsis;
+  padding: 16px;
+}
